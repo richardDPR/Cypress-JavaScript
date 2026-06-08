@@ -4,3 +4,8 @@ allure-report/
 
 # node
 node_modules/
+
+# ─── Cypress artefactos ─────────────────────────────────────────
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
