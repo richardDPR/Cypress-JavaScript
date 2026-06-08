@@ -1,0 +1,22 @@
+{
+  "name": "cypress-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run:firefox": "npx cypress run --browser firefox:dev",
+    "test": "npx cypress run --browser firefox:dev",
+    "allure:generate": "npx allure generate allure-results --clean -o allure-report",
+    "allure:open": "npx allure open allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "allure-commandline": "^2.14.0",
+    "cypress": "^15.9.0"
+  }
+}
